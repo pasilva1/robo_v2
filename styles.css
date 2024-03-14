@@ -1,3 +1,17 @@
+/* Posicionamento do ícone do WhatsApp */
+.whatsapp-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; /* Alterado para posicionar no canto inferior direito */
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Outras definições de estilo */
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 
 body {
@@ -59,15 +73,4 @@ h2 {
   h2 {
     font-size: 1.5rem;
   }
-  .whatsapp-link {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  z-index: 1000;
- }
-
- .whatsapp-icon {
-  width: 50px;
-  height: 50px;
- }
 }
