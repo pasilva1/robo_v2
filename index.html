@@ -10,28 +10,27 @@
     .whatsapp-link {
       position: fixed;
       bottom: 20px;
-      right: 20px; /* Alterado para posicionar no canto inferior direito */
+      right: 80px; /* Ajustado para dar espaço suficiente ao ícone de e-mail */
       z-index: 1000;
     }
 
-    .whatsapp-icon {
-      width: 50px;
+    .whatsapp-icon, .email-icon {
+      width: 50px; /* Definido o mesmo tamanho para ambos os ícones */
       height: 50px;
     }
 
     .email-icon {
-      width: 20px; /* Largura do ícone de e-mail */
-      height: auto; /* Altura ajustada automaticamente para manter a proporção */
-      margin-right: 5px; /* Espaçamento à direita do ícone */
+      margin-right: 10px; /* Ajustado o espaçamento entre os ícones */
+      margin-left: -60px; /* Ajustado para posicionar ao lado esquerdo do ícone do WhatsApp */
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1><strong>Patrick Ataíde</strong>strong> - 
+    <h1><strong>Patrick Ataíde</strong> - 
       <span class="txt-type" data-wait="3000" data-words='["Python","RPA","Bash","PowerShell","Docker"]'></span>
     </h1>
-    <a href="mailto:patrickataide.ti@gmail.com">
+    <a href="mailto:patrickataide.ti@gmail.com" class="whatsapp-link">
       <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="E-mail" class="email-icon">
     </a>
   </div>
